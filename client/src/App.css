@@ -1,0 +1,102 @@
+.App {
+  --height: 1080px;
+  --width: 1920px;
+  --pad: 25px;
+  width: var(--width);
+  font-size: 18px;
+
+}
+
+.presentation-container {
+  height: var(--height);
+  width: var(--width);
+  border-width: 0px;
+  margin-bottom: var(--pad);
+  border-width: 0px;
+}
+
+
+.presentation-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 0px;
+  stroke-width: 0px;
+  outline: none;
+}
+
+
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: 1rem;
+  border-width: 0px;
+  font-size: 18px;
+}
+
+.file-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 1rem;
+  margin-left: 50px;
+  background-color: rosybrown;
+  padding-left: var(--pad);
+  padding-right: var(--pad);
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.controls {
+  background-color: black;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.slide-preview-container {
+  width: 100%;
+  background-color: black;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  --slide-height: 180px;
+  --slide-width: 320px;
+  justify-content: center;
+  color: white;
+}
+
+.slide-previous {
+  height: var(--slide-height);
+  width: var(--slide-width);
+  background-color: aliceblue;
+  margin: 1rem;
+}
+
+.slide-next {
+  height: var(--slide-height);
+  width: var(--slide-width);
+  background-color: aliceblue;
+  margin: 1rem;
+}
+
+.slide-preview-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+  padding: 0px;
+  margin: 0px;
+  height: fit-content;
+}
