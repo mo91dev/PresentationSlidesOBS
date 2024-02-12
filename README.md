@@ -1,10 +1,10 @@
 # Youtube Slide Web App for OBS
-Present images as presentation slides in OBS as a browser source for CSS support and extensibility.
+Present images as presentation slides in OBS as a browser source for CSS support and extensibility. Created to reduce the amount of editing needed for YouTube, Live Steaming, or Podcasting.
 ## How to use
 This project assumes you have familiarity with Git, NPM, and the command line.
 
 
-If this is your first time running the application or you have made updates to the  client code, run `bash update.sh`. For those using windows, just run the commands within the script manually.
+If this is your first time running the apsplication or you have made updates to the  client code, run `bash update.sh`. For those using windows, just run the commands within the script manually.
 
 1. Run `run.sh`
 2. In OBS, add a new browser source to your scene
